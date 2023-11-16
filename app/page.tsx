@@ -2,6 +2,7 @@ import AcmeLogo from '@/app/ui/acme-logo';
 import styles from './ui/home.module.css';
 import Link from 'next/link';
 import { lusitana } from '@/app/ui/fonts';
+import Image from 'next/image';
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
@@ -27,7 +28,7 @@ export default function Page() {
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
-          <img
+          <Image
         src="/hero-desktop.png"
         alt="Screenshots of the dashboard project showing desktop and mobile versions"
       />
